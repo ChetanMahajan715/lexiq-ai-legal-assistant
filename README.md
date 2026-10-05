@@ -81,6 +81,9 @@ Every answer follows the same structure, so it reads like a legal note:
 
 ## Getting started
 
+> **Model update:** Groq has since retired `llama-3.1-8b-instant`, the model this project was built with. To run it today, change `GROQ_MODEL` near the top of `app.py` to a current Groq model, for example `openai/gpt-oss-20b` ([available models](https://console.groq.com/docs/models)).
+
+
 **Requirements:** Python 3.11+, a free Groq API key from https://console.groq.com/keys
 
 ```bash
